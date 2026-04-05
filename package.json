@@ -1,0 +1,19 @@
+{
+  "name": "playwright-automation-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reusable Playwright automation template with TypeScript, fixtures, page objects, utilities, and CI-friendly defaults.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
