@@ -147,9 +147,11 @@ git push -u origin main
 
 If the repository already exists locally, skip `git init` and only add the remote if needed.
 
-## What You Can Add Next
+## Next Improvements
 
-- Add `.env` support for environment-specific values and secrets
-- Add ESLint and Prettier for consistent code quality
-- Add authentication helpers for login-based test flows
-- Split suites by tags or projects for smoke, regression, and API coverage
+- Multi-environment execution
+- API testing support
+- Custom reporters
+- Jenkins integration
+- Parallel execution strategy
+- Test data management utilities
